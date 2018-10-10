@@ -5876,3 +5876,1018 @@ parts_search_response = json.loads("""{
     }
   ]
 }""")
+
+parts_part_response = json.loads("""{
+  "__class__": "Part",
+  "brand": {
+    "__class__": "Brand",
+    "homepage_url": null,
+    "name": "Fluke",
+    "uid": "78cfb9c55526af08"
+  },
+  "datasheets": [
+    {
+      "__class__": "Datasheet",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "element14 APAC",
+            "uid": "58989d9272cd8b5f"
+          }
+        ]
+      },
+      "metadata": {
+        "date_created": "2012-05-15T17:51:59Z",
+        "last_updated": "2012-05-15T17:52:22Z",
+        "num_pages": 2,
+        "size_bytes": 630915
+      },
+      "mimetype": "application/pdf",
+      "url": "http://datasheet.octopart.com/FLUKE-424D-Fluke-datasheet-12564773.pdf"
+    },
+    {
+      "__class__": "Datasheet",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Farnell",
+            "uid": "58989d9272cd8b5f"
+          }
+        ]
+      },
+      "metadata": {
+        "date_created": "2012-07-25T07:52:26Z",
+        "last_updated": "2012-07-25T07:52:27Z",
+        "num_pages": 2,
+        "size_bytes": 137267
+      },
+      "mimetype": "application/pdf",
+      "url": "http://datasheet.octopart.com/FLUKE-424D-Fluke-datasheet-12560617.pdf"
+    },
+    {
+      "__class__": "Datasheet",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Farnell",
+            "uid": "58989d9272cd8b5f"
+          }
+        ]
+      },
+      "metadata": {
+        "date_created": "2012-07-25T07:51:55Z",
+        "last_updated": "2012-07-25T07:51:58Z",
+        "num_pages": 2,
+        "size_bytes": 201939
+      },
+      "mimetype": "application/pdf",
+      "url": "http://datasheet.octopart.com/FLUKE-424D-Fluke-datasheet-12568420.pdf"
+    },
+    {
+      "__class__": "Datasheet",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Farnell",
+            "uid": "58989d9272cd8b5f"
+          }
+        ]
+      },
+      "metadata": {
+        "date_created": "2012-07-25T07:51:14Z",
+        "last_updated": "2012-07-25T07:51:17Z",
+        "num_pages": 2,
+        "size_bytes": 196234
+      },
+      "mimetype": "application/pdf",
+      "url": "http://datasheet.octopart.com/FLUKE-424D-Fluke-datasheet-12564825.pdf"
+    },
+    {
+      "__class__": "Datasheet",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Jameco",
+            "uid": "bab57fbf9ab96972"
+          }
+        ]
+      },
+      "metadata": {
+        "date_created": "2012-05-15T17:49:51Z",
+        "last_updated": "2013-01-28T21:00:05Z",
+        "num_pages": 2,
+        "size_bytes": 174565
+      },
+      "mimetype": "application/pdf",
+      "url": "http://datasheet.octopart.com/FLUKE-424D-Fluke-datasheet-13719724.pdf"
+    },
+    {
+      "__class__": "Datasheet",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Allied Electronics & Automation",
+            "uid": "f9e13cebd0892a26"
+          }
+        ]
+      },
+      "metadata": {
+        "date_created": "2012-04-04T20:24:07Z",
+        "last_updated": "2012-04-25T19:10:35Z",
+        "num_pages": 2,
+        "size_bytes": 522055
+      },
+      "mimetype": "application/pdf",
+      "url": "http://datasheet.octopart.com/424D-Fluke-datasheet-10925636.pdf"
+    },
+    {
+      "__class__": "Datasheet",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Allied Electronics & Automation",
+            "uid": "f9e13cebd0892a26"
+          }
+        ]
+      },
+      "metadata": {
+        "date_created": "2012-05-15T17:51:59Z",
+        "last_updated": "2012-07-12T14:15:04Z",
+        "num_pages": 2,
+        "size_bytes": 625698
+      },
+      "mimetype": "application/pdf",
+      "url": "http://datasheet.octopart.com/424D-Fluke-datasheet-37499250.pdf"
+    }
+  ],
+  "manufacturer": {
+    "__class__": "Manufacturer",
+    "homepage_url": null,
+    "name": "Fluke",
+    "uid": "94e351e9bd0a4724"
+  },
+  "mpn": "FLUKE-424D",
+  "octopart_url": "https://octopart.com/fluke-424d-fluke-23827794",
+  "offers": [
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "459_614-1227-ND",
+      "eligible_region": "",
+      "factory_lead_days": 14,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 1,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T12:46:51Z",
+      "moq": 1,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": "Bulk",
+      "prices": {
+        "USD": [
+          [
+            1,
+            "429.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=057d134&sid=459&ppid=23827794&vpid=61927347&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.digikey.com",
+        "id": "459",
+        "name": "Digi-Key",
+        "uid": "2c3be9310496fffc"
+      },
+      "sku": "614-1227-ND"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "819_2249956_NL",
+      "eligible_region": "NL",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 3,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T13:57:11Z",
+      "moq": 1,
+      "multipack_quantity": "1",
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "EUR": [
+          [
+            1,
+            "370.00000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=0282c3d&sid=819&ppid=23827794&vpid=240170935&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "GB",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.farnell.com/",
+        "id": "819",
+        "name": "Farnell",
+        "uid": "58989d9272cd8b5f"
+      },
+      "sku": "2249956"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "3261_7649633",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 37,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T13:02:52Z",
+      "moq": null,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {},
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=04a6333&sid=10022&ppid=23827794&vpid=180978641&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "GB",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.rs-components.com",
+        "id": "3261",
+        "name": "RS Components",
+        "uid": "fbaa3ea0de71286d"
+      },
+      "sku": "7649633"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "2401_676-FLUKE-424D",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 6,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T03:01:06Z",
+      "moq": 1,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "USD": [
+          [
+            1,
+            "429.99000"
+          ],
+          [
+            10,
+            "429.99000"
+          ],
+          [
+            50,
+            "429.99000"
+          ],
+          [
+            100,
+            "429.99000"
+          ],
+          [
+            1000,
+            "429.99000"
+          ],
+          [
+            10000,
+            "429.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=070e0cc&sid=2401&ppid=23827794&vpid=52838226&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.mouser.com",
+        "id": "2401",
+        "name": "Mouser",
+        "uid": "a5e060ea85e77627"
+      },
+      "sku": "676-FLUKE-424D"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "4599_1692555",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 4,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-09-21T20:36:14Z",
+      "moq": null,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "USD": [
+          [
+            1,
+            "429.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=02c923e&sid=14294&ppid=23827794&vpid=254526480&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.walkeremd.com",
+        "id": "4599",
+        "name": "Walker Industrial",
+        "uid": "cc4e0944f4df1f89"
+      },
+      "sku": "1692555"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "10434_166312015",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": -2,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T00:20:06Z",
+      "moq": 1,
+      "multipack_quantity": "1",
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": 1,
+      "packaging": null,
+      "prices": {
+        "CAD": [
+          [
+            1,
+            "557.97000"
+          ]
+        ],
+        "EUR": [
+          [
+            1,
+            "366.30000"
+          ]
+        ],
+        "USD": [
+          [
+            1,
+            "429.34000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=064d2d8&sid=26605&ppid=23827794&vpid=217729152&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "EU",
+        "has_ecommerce": true,
+        "homepage_url": "https://www.omnical.nl/",
+        "id": "10434",
+        "name": "Omnical",
+        "uid": "8c0849028dac5fcf"
+      },
+      "sku": "166312015"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "4782_101774",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 2,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T02:09:18Z",
+      "moq": null,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "EUR": [
+          [
+            1,
+            "325.00000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=0f7c592&sid=14587&ppid=23827794&vpid=410886304&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "DE",
+        "has_ecommerce": true,
+        "homepage_url": "http://conrad.com",
+        "id": "4782",
+        "name": "Conrad",
+        "uid": "7914bc1e42dcaad3"
+      },
+      "sku": "101774"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "7928_EW-97241-16",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": -3,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T11:55:19Z",
+      "moq": null,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "USD": [
+          [
+            1,
+            "386.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=02fbc73&sid=19717&ppid=23827794&vpid=114904221&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.coleparmer.com/",
+        "id": "7928",
+        "name": "Cole-Parmer",
+        "uid": "44128118738c97d5"
+      },
+      "sku": "EW-97241-16"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "2591_424D",
+      "eligible_region": "",
+      "factory_lead_days": 9,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 0,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T08:41:30Z",
+      "moq": 1,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": "2018-10-25T00:00:00Z",
+      "on_order_quantity": 1,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "USD": [
+          [
+            1,
+            "429.99000"
+          ],
+          [
+            3,
+            "408.49000"
+          ],
+          [
+            5,
+            "386.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=04e4fbf&sid=2595&ppid=23827794&vpid=58240324&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://masterdistributors.com/",
+        "id": "2591",
+        "name": "Master Electronics",
+        "uid": "2f93ea990ceafc54"
+      },
+      "sku": "424D"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "2429_424D",
+      "eligible_region": "",
+      "factory_lead_days": 9,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 0,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T11:02:51Z",
+      "moq": 1,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": "2018-10-25T00:00:00Z",
+      "on_order_quantity": 1,
+      "order_multiple": null,
+      "packaging": "Bulk",
+      "prices": {
+        "USD": [
+          [
+            1,
+            "429.99000"
+          ],
+          [
+            3,
+            "408.49000"
+          ],
+          [
+            5,
+            "386.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?c=1&ak=69ec4b8e&sig=0a31102&sid=2429&ppid=23827794&vpid=58240571&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.onlinecomponents.com",
+        "id": "2429",
+        "name": "Onlinecomponents.com",
+        "uid": "e3fd26f7c3e6303a"
+      },
+      "sku": "424D"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "2426_FLUKE-424D",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 1,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T13:28:06Z",
+      "moq": null,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {},
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=052ac25&sid=2426&ppid=23827794&vpid=217152896&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.ralphselectronics.com",
+        "id": "2426",
+        "name": "Ralph's Industrial Electronics",
+        "uid": "a737623d872b74f0"
+      },
+      "sku": "FLUKE-424D"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "2402_05W4602_US",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 9,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T05:41:18Z",
+      "moq": 1,
+      "multipack_quantity": "1",
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "USD": [
+          [
+            1,
+            "387.00000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=003ea07&sid=2402&ppid=23827794&vpid=52174496&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.newark.com",
+        "id": "2402",
+        "name": "Newark",
+        "uid": "d294179ef2900153"
+      },
+      "sku": "05W4602"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "14_70230869",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": 1,
+      "in_stock_quantity": 5,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T09:46:14Z",
+      "moq": 1,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": 1,
+      "packaging": "Bulk",
+      "prices": {
+        "USD": [
+          [
+            1,
+            "429.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=0db7e41&sid=14&ppid=23827794&vpid=47629328&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://alliedelec.com",
+        "id": "14",
+        "name": "Allied Electronics & Automation",
+        "uid": "f9e13cebd0892a26"
+      },
+      "sku": "70230869"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "7328_424D_US",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 10,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T06:38:24Z",
+      "moq": null,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "USD": [
+          [
+            1,
+            "386.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=00d425b&sid=18462&ppid=23827794&vpid=408631312&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.fotronic.com",
+        "id": "7328",
+        "name": "Test Equipment Depot",
+        "uid": "f05a3550c59c239d"
+      },
+      "sku": "424D"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "3702_2249956_SG",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 1,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T08:34:41Z",
+      "moq": 1,
+      "multipack_quantity": "1",
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "SGD": [
+          [
+            1,
+            "728.00000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=00fe452&sid=11744&ppid=23827794&vpid=240057575&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "SG",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.element14.com/",
+        "id": "3702",
+        "name": "element14 APAC",
+        "uid": "7f61ba6b5871aca6"
+      },
+      "sku": "2249956"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "4617_18075759_NL",
+      "eligible_region": "NL",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 4,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T13:39:32Z",
+      "moq": null,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {},
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=0b4cd18&sid=14389&ppid=23827794&vpid=468992219&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "EU",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.distrelec.com",
+        "id": "4617",
+        "name": "Distrelec",
+        "uid": "e53d2037de5236fa"
+      },
+      "sku": "18075759"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "14_70232958",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": 1,
+      "in_stock_quantity": 0,
+      "is_authorized": true,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T09:46:14Z",
+      "moq": 1,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": 1,
+      "packaging": "Bulk",
+      "prices": {
+        "USD": [
+          [
+            1,
+            "375.00000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?c=1&ak=69ec4b8e&sig=0e18162&sid=14&ppid=23827794&vpid=48691462&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://alliedelec.com",
+        "id": "14",
+        "name": "Allied Electronics & Automation",
+        "uid": "f9e13cebd0892a26"
+      },
+      "sku": "70232958"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "1532_FLK-424D",
+      "eligible_region": "",
+      "factory_lead_days": 35,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 3,
+      "is_authorized": false,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T00:08:43Z",
+      "moq": 1,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": 1,
+      "packaging": null,
+      "prices": {
+        "USD": [
+          [
+            1,
+            "415.35000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=05f176c&sid=1532&ppid=23827794&vpid=187748027&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "PL",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.tme.eu/en/",
+        "id": "1532",
+        "name": "TME",
+        "uid": "223ee7340ea4f1f9"
+      },
+      "sku": "FLK-424D"
+    },
+    {
+      "__class__": "PartOffer",
+      "_custom": {},
+      "_naive_id": "5658_FLUKE-424D",
+      "eligible_region": "",
+      "factory_lead_days": null,
+      "factory_order_multiple": null,
+      "in_stock_quantity": 0,
+      "is_authorized": false,
+      "is_realtime": false,
+      "last_updated": "2018-10-10T12:29:52Z",
+      "moq": null,
+      "multipack_quantity": null,
+      "octopart_rfq_url": null,
+      "on_order_eta": null,
+      "on_order_quantity": null,
+      "order_multiple": null,
+      "packaging": null,
+      "prices": {
+        "USD": [
+          [
+            1,
+            "424.99000"
+          ]
+        ]
+      },
+      "product_url": "https://octopart.com/click/track?ak=69ec4b8e&sig=0395491&sid=16030&ppid=23827794&vpid=179849983&ct=offers",
+      "seller": {
+        "__class__": "Seller",
+        "display_flag": "US",
+        "has_ecommerce": true,
+        "homepage_url": "http://www.markertek.com/",
+        "id": "5658",
+        "name": "Markertek",
+        "uid": "32b6f7bc0dcae171"
+      },
+      "sku": "FLUKE-424D"
+    }
+  ],
+  "redirected_uids": [
+    "02afc8ea3f09dd68",
+    "57649f3a221d88a3",
+    "7c4eb43875f0a389"
+  ],
+  "short_description": "Fluke Laser Distance Meter Includes Compass and Pouch 80 Meters 260 Feet",
+  "specs": {
+    "packaging": {
+      "__class__": "SpecValue",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Ciiva",
+            "uid": "8c5c4956cfa65f9b"
+          }
+        ]
+      },
+      "display_value": "Bulk",
+      "max_value": null,
+      "metadata": {
+        "__class__": "SpecMetadata",
+        "datatype": "string",
+        "key": "packaging",
+        "name": "Packaging",
+        "unit": null
+      },
+      "min_value": null,
+      "value": [
+        "Bulk"
+      ]
+    },
+    "reach_svhc_compliance": {
+      "__class__": "SpecValue",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Farnell",
+            "uid": "58989d9272cd8b5f"
+          }
+        ]
+      },
+      "display_value": "No SVHC",
+      "max_value": null,
+      "metadata": {
+        "__class__": "SpecMetadata",
+        "datatype": "string",
+        "key": "reach_svhc_compliance",
+        "name": "REACH SVHC Compliance",
+        "unit": null
+      },
+      "min_value": null,
+      "value": [
+        "No SVHC"
+      ]
+    },
+    "rohs_status": {
+      "__class__": "SpecValue",
+      "attribution": {
+        "__class__": "Attribution",
+        "first_acquired": null,
+        "sources": [
+          {
+            "__class__": "Source",
+            "name": "Farnell",
+            "uid": "58989d9272cd8b5f"
+          }
+        ]
+      },
+      "display_value": "Not Applicable",
+      "max_value": null,
+      "metadata": {
+        "__class__": "SpecMetadata",
+        "datatype": "string",
+        "key": "rohs_status",
+        "name": "RoHS",
+        "unit": null
+      },
+      "min_value": null,
+      "value": [
+        "Not Applicable"
+      ]
+    }
+  },
+  "uid": "eddc25bd5de8321b"
+}""")
