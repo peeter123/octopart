@@ -206,7 +206,7 @@ class PartsTests(TestCase):
         assert part.mpn == 'FLUKE-424D'
         assert part.manufacturer == 'Fluke'
 
-        assert len(part.offers) == 19
+        assert len(part.offers) == 1
         offer = part.offers[0]
         assert isinstance(offer, models.PartOffer)
         assert offer.prices == {
