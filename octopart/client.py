@@ -212,7 +212,7 @@ class OctopartClient(object):
         https://octopart.com/api/docs/v3/rest-api#endpoints-parts-search
 
         Args:
-            uid (str): free-form keyword query
+            uid (str): unique 64-bit Octopart ID
 
         Kwargs:
             includes, hide, show: Same as `match()`.
@@ -221,8 +221,8 @@ class OctopartClient(object):
             dict. See `models.Part` for exact fields.
         """
 
-        if not re.compile("^[a-f0-9]{16}$").match(uid):
-            raise OctopartError('Wrong UID given, please enter a 64-bit unique id')
+        if not re.match('^[a-f0-9]{16}$', uid):
+            raise OctopartError('Wrong UID given, please enter a 64-bit unique Octopart ID')
 
         params = {}
 
