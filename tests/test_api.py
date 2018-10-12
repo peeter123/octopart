@@ -205,6 +205,7 @@ class PartsTests(TestCase):
         assert part.uid == "eddc25bd5de8321b"
         assert part.mpn == 'FLUKE-424D'
         assert part.manufacturer == 'Fluke'
+        assert part.short_description == 'Fluke Laser Distance Meter Includes Compass and Pouch 80 Meters 260 Feet'
 
         assert len(part.offers) == 1
         offer = part.offers[0]

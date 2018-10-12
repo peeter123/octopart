@@ -190,6 +190,10 @@ class Part():
         return self._part['category_uids']
 
     @property
+    def short_description(self):
+        return self._part['short_description']
+
+    @property
     def specs(self) -> t.Dict[str, 'Spec']:
         _specs = self._part.get('specs', {})
         return {
