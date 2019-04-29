@@ -206,7 +206,7 @@ class OctopartClient(object):
              show: t.Optional[t.List[str]] = None,
              ) -> dict:
         """
-        Query part by unique ID, using more fields and filter options than 'match'.
+        Query part by UID, using more fields and filter options than 'match'.
 
         This calls the /parts/search endpoint of the Octopart API:
         https://octopart.com/api/docs/v3/rest-api#endpoints-parts-search
@@ -222,7 +222,7 @@ class OctopartClient(object):
         """
 
         if not re.match('^[a-f0-9]{16}$', uid):
-            raise OctopartError('Wrong UID given, please enter a 64-bit unique Octopart ID')
+            raise OctopartError('Wrong UID, please enter a 64-bit Octopart ID')
 
         params = {}
 
